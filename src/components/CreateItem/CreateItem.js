@@ -12,7 +12,7 @@ const CreateItem = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/items", item);
+      await axios.post("https://practical-ck2g.onrender.com/api/items", item);
       setItem({ name: "", description: "" });
       alert("Item added successfully!");
     } catch (error) {
