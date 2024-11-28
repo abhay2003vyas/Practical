@@ -1,0 +1,22 @@
+/* frontend/src/components/Search.css */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .search-input {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 1px solid #bdc3c7;
+    width: 60%;
+    max-width: 400px;
+    transition: border-color 0.3s;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  

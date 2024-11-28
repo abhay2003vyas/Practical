@@ -1,0 +1,69 @@
+/* frontend/src/components/ItemList.css */
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.item-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s ease, background-color 0.3s;
+  padding: 10px;
+  cursor: pointer;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
+
+.item-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: #cab8ff;
+}
+
+.item-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.item-name:hover {
+  color: #c5db34;
+}
+
+.item-description {
+  font-size: 1.1rem;
+  color: #df6565;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.item-card-footer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #41f73e;
+}
+
+.item-card-footer span {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #9870f8;
+  transition: color 0.3s;
+}
+
+.item-card-footer span:hover {
+  color: #50db34;
+}

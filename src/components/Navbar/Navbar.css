@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
